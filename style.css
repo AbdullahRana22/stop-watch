@@ -1,0 +1,33 @@
+body {
+    background: black;
+}
+.h1{
+   width : 100%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 3em;
+}
+.watch{
+    width: 90%;
+    max-width: 400px;
+    background: cadetblue;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    color: #fff;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button img{
+    cursor: pointer;
+    width: 50px;
+}
+.button img:nth-child(2){
+    width: 75px;
+}
+
+
